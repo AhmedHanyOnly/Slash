@@ -1,0 +1,33 @@
+// box-serv
+.box-serv {
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(11, 34, 57, 0.1);
+  text-align: center;
+  padding: 25px;
+  .img {
+    height: 70px;
+    object-fit: cover;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto 14px;
+  }
+  .title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 6px;
+  }
+  .text {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+}
+
+
+
